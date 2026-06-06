@@ -2,15 +2,15 @@ import streamlit as st
 from PIL import Image
 
 # --- GENERAL SETTINGS ---
-PAGE_TITLE = "Digital CV | Egezon Baruti"
+PAGE_TITLE = "Digital CV | Enis Azemi"
 PAGE_ICON = ":wave:"
-NAME = "Egezon Baruti"
+NAME = "Enis Azemi"
 DESCRIPTION = """
-Data Scientist specializing in spatial-sensor data and data-driven decision-making.
+Link Building Specialist | SEO Specialist | Cold Outreach Specialist
 """
 
-EMAIL = "egzonbaruti@yahoo.com"
-LINKEDIN_URL = "https://www.linkedin.com/in/egezonbaruti"
+EMAIL = "azemiieniis@gmail.com"
+LINKEDIN_URL = "https://www.linkedin.com/in/enis-azemi/"
 
 st.set_page_config(page_title=PAGE_TITLE, page_icon=PAGE_ICON)
 
