@@ -17,8 +17,8 @@ LINKEDIN_URL = "https://www.linkedin.com/in/enis-azemi/"
 st.set_page_config(page_title=PAGE_TITLE, page_icon=PAGE_ICON)
 
 # Directly reference files in the assets folder (ensure it exists)
-resume_file = "assets/Profile (5).pdf"
-profile_pic_file = "assets/Enis PFP (1).png"
+resume_file = "assets/Profile(4).pdf"
+profile_pic_file = "assets/EnisPFP.png"
 
 with open(resume_file, "rb") as pdf_file:
     PDFbyte = pdf_file.read()
