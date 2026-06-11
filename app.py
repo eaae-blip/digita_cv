@@ -7,7 +7,9 @@ PAGE_ICON = ":wave:"
 NAME = "Enis Azemi"
 DESCRIPTION = """
 Link Building Specialist | SEO Specialist | Cold Outreach Specialist
-"""
+I help brands grow organically and sustainably through the power of search. As a Search Engine Optimization Growth Specialist and Link Building Specialist, I blend creativity with data to turn visibility into revenue—mapping opportunities through keyword research, polishing on-page experiences, and building authority with smart outreach.
+From technical tune-ups to content that answers real user intent, my approach to search engine optimization is simple: make it easier for the right people to find (and love) your brand. I’m obsessed with testing, learning, and compounding small wins into big outcomes—more qualified traffic, better rankings, and measurable growth.
+Always curious. Always shipping. Always growing. 🌱"""
 
 EMAIL = "azemiieniis@gmail.com"
 LINKEDIN_URL = "https://www.linkedin.com/in/enis-azemi/"
@@ -15,8 +17,8 @@ LINKEDIN_URL = "https://www.linkedin.com/in/enis-azemi/"
 st.set_page_config(page_title=PAGE_TITLE, page_icon=PAGE_ICON)
 
 # Directly reference files in the assets folder (ensure it exists)
-resume_file = "assets/egezon_cv_12_2024.pdf"
-profile_pic_file = "assets/profile-pic.png"
+resume_file = "assets/Profile (5).pdf"
+profile_pic_file = "assets/Enis PFP (1).png"
 
 with open(resume_file, "rb") as pdf_file:
     PDFbyte = pdf_file.read()
