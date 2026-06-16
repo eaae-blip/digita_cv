@@ -49,26 +49,12 @@ if page == "Home":
     # --- EXPERIENCE & QUALIFICATIONS ---
     st.write("\n")
     st.subheader("Experience & Qualifications")
-    st.write(
-        """
-- ✔️ Extensive experience with spatial-sensor data and algorithm development.
-- ✔️ Skilled in Python (FastAPI, Pandas, Numpy), SQL, DBT, and Airflow.
-- ✔️ Experienced in visualizing and analyzing sensor data to deliver insights.
-- ✔️ Proficient in PowerBI and interactive dashboard development.
-"""
-    )
+    
 
     # --- SKILLS ---
     st.write("\n")
     st.subheader("Hard Skills")
-    st.write(
-        """
-- 👩‍💻 Programming: Python (FastAPI, Scikit-learn, Pandas), SQL, DBT
-- 📊 Data Visualization: PowerBI, Streamlit
-- 🗄️ Databases: Snowflake, AWS, PostgreSQL
-- 🤖 Machine Learning: Neural networks, classification algorithms
-"""
-    )
+   
 
     # --- WORK HISTORY ---
     st.write("\n")
