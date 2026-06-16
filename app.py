@@ -49,108 +49,86 @@ if page == "Home":
     # --- EXPERIENCE & QUALIFICATIONS ---
     st.write("\n")
     st.subheader("Experience & Qualifications")
-   
+    st.write(
+        """
+- ✔️ 4+ years driving organic growth through SEO and link building across US and DACH markets
+- ✔️ Hands-on expertise in cold outreach, prospecting, guest posts, and digital PR
+- ✔️ Skilled with SEMrush, Hunter, Snov, and backlink analysis tools
+- ✔️ Trilingual communicator (English, German, Albanian) thriving in cross-cultural teams
+"""
+    )
 
     # --- WORK HISTORY ---
     st.write("\n")
     st.subheader("Work History")
     st.write("---")
-
     # --- JOB 1
-    st.write("🚧", "**Data Scientist | TIVE Inc., Prishtina**")
-    st.write("11/2023 - 11/2024")
+    st.write("🚧", "**SEO Outreach Specialist | SEO-Friends, St. Gallen**")
+    st.write("03/2026 - Present")
     st.write(
         """
-- ► Built classification algorithms for spatial-sensor data using Python (FastAPI), SQL, DBT, and Airflow.
-- ► Analyzed and visualized sensor data trends to support decision-making.
+- ► Drive off-page SEO for the DACH region, earning backlinks from high-authority sites through competitor research and hands-on outreach.
+- ► Map backlink opportunities using SEMrush and comparable tools across German, Austrian, and Swiss markets.
+- ► Reach out personally to website owners and editors, corresponding primarily in German, to secure placements.
+- ► Devise inventive link-building approaches including guest posts, resource links, and partnerships.
 """
     )
-
     # --- JOB 2
     st.write("\n")
-    st.write("🚧", "**Data Scientist | Raiffeisen Bank Kosovo, Prishtina**")
-    st.write("10/2021 - 08/2023")
+    st.write("🚧", "**Link Building Specialist | Echelonn**")
+    st.write("01/2025 - Present")
     st.write(
         """
-- ► Validated ML scorecards in collaboration with Raiffeisen Bank International.
-- ► Forecasted patterns using advanced data science techniques.
-- ► Developed impactful PowerBI dashboards for business insights.
+- ► Support the team on backlink acquisition, outreach, and prospecting.
 """
     )
-
     # --- JOB 3
     st.write("\n")
-    st.write("🚧", "**AI Instructor | OSCE, Prishtina**")
-    st.write("05/2023 (Fixed-term)")
+    st.write("🚧", "**SEO Link Builder | Novalab SEO Agency, Prishtina**")
+    st.write("02/2025 - 11/2025")
     st.write(
         """
-- ► Delivered training on large language models (LLMs) and generative AI.
-- ► Equipped participants with tools to integrate AI in public relations strategies.
+- ► Secured backlinks through prospecting and targeted outreach for guest posts, niche edits, and link placements.
+- ► Used Hunter, Snov, and backlink checkers to track opportunities and results.
+- ► Assisted with digital PR and relationship building to land relevant backlinks.
 """
     )
-
     # --- JOB 4
     st.write("\n")
-    st.write("🚧", "**Coding Instructor | BIT Academy, Prishtina**")
-    st.write("05/2022 - 05/2023")
+    st.write("🚧", "**SEO Consultant | EMYBS**")
+    st.write("11/2024 - 04/2025")
     st.write(
         """
-- ► Taught Python, SQL, and Django with applications in data science.
-- ► Guided students in machine learning and data visualization projects.
-- ► Conducted backend development workshops and GUI programming with Tkinter.
+- ► Managed two technical and on-page SEO projects covering strategy, keyword research, and site optimization.
+- ► Focused on improving sales and website visits through targeted improvements.
 """
     )
-
     # --- JOB 5
     st.write("\n")
-    st.write("🚧", "**Teaching Assistant | London School of Economics / Kolegji Riinvest, Prishtina**")
-    st.write("10/2022 - 06/2023")
+    st.write("🚧", "**Outreach Specialist | LinkDR, United States**")
+    st.write("09/2024 - 01/2025")
     st.write(
         """
-- ► Assisted in teaching Machine Learning and Business Analytics.
-- ► Supported students in building machine learning models and data strategies.
+- ► Ran link-building outreach campaigns to secure backlinks for US-based clients.
 """
     )
-
     # --- JOB 6
     st.write("\n")
-    st.write("🚧", "**Data Analyst | Finca Kosovo, Prishtina**")
-    st.write("06/2021 - 10/2021")
+    st.write("🚧", "**SEO Specialist | Tactica, Prishtina**")
+    st.write("06/2022 - 09/2024")
     st.write(
         """
-- ► Developed and implemented machine learning models for scoring.
-- ► Automated daily reports and created data visualizations for stakeholders.
+- ► Progressed from SEO Intern to Junior SEO Specialist to SEO Specialist over two-plus years.
+- ► Executed keyword research, on-page optimization, and link-building campaigns across client sites.
 """
     )
-
     # --- JOB 7
     st.write("\n")
-    st.write("🚧", "**Math and IT Teacher | International School of Prishtina, Prishtina**")
-    st.write("09/2015 - 05/2021")
+    st.write("🚧", "**Crew Member, J-1 Work & Travel | KFC, South Carolina**")
+    st.write("06/2018 - 09/2018")
     st.write(
         """
-- ► Taught Mathematics, IT, and introductory machine learning.
-- ► Served as Vice Principal, showcasing leadership in curriculum development.
-- ► Instructed robotics and coding with Python and Scratch.
+- ► Selected for the U.S. Department of State's J-1 Summer Work and Travel cultural exchange program.
+- ► Handled food prep, customer service, and POS transactions in a fast-paced, high-volume environment.
 """
     )
-
-elif page == "About":
-    st.title("About Me")
-    st.write("""
-    I am a data scientist with a strong passion for leveraging insights 
-    from spatial-sensor data to drive meaningful, data-driven decisions. 
-    With extensive experience in Python (FastAPI, Pandas, Numpy), SQL, DBT, and Airflow, 
-    I excel at developing algorithms, building ML pipelines, and crafting robust data solutions. 
-
-    Over the years, I've collaborated with diverse teams, including 
-    financial institutions and educational organizations, 
-    honing my ability to communicate insights effectively. 
-    Beyond my professional pursuits, I enjoy instructing students 
-    and professionals on AI-related topics, enabling them to harness 
-    the transformative power of machine learning and analytics.
-    """)
-
-    # Show LinkedIn and Email only on the About page
-    st.write("📫", EMAIL)
-    st.write(f"Feel free to connect with me on [LinkedIn]({LINKEDIN_URL}).")
