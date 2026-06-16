@@ -4,7 +4,7 @@ from PIL import Image
 # --- GENERAL SETTINGS ---
 PAGE_TITLE = "Digital CV | "
 PAGE_ICON = ":wave:"
-NAME = "Egezon Baruti"
+NAME = "Enis Azemi"
 DESCRIPTION = """
 Data Scientist  in spatial-sensor data and data-driven decision-making.
 """
