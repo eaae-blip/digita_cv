@@ -132,6 +132,23 @@ if page == "Home":
 - ► Handled food prep, customer service, and POS transactions in a fast-paced, high-volume environment.
 """
     )
+elif page == "About":
+    st.title("About Me")
+    st.write("""
+    I help brands grow organically and sustainably through the power of search. 
+    As an SEO Growth and Link Building Specialist, I blend creativity with data 
+    to turn visibility into revenue, mapping opportunities through keyword research, 
+    polishing on-page experiences, and building authority with smart outreach. 
+    From technical tune-ups to content that answers real user intent, my approach 
+    to SEO is simple: make it easier for the right people to find and love your brand. 
+    I'm obsessed with testing, learning, and compounding small wins into big outcomes: 
+    more qualified traffic, better rankings, and measurable growth. 
+    Always curious. Always shipping. Always growing.
+    """)
+    # Show LinkedIn and Email only on the About page
+    st.write("📫", EMAIL)
+    st.write(f"Feel free to connect with me on [LinkedIn]({LINKEDIN_URL}).")
+
 elif page == "Projects":
     st.title("Projects")
     st.write("---")
