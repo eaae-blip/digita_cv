@@ -3,7 +3,7 @@
 primaryColor = "#0da13c"
 
 # A light "white-blue" background color for the main content area
-backgroundColor = "#f5965f"
+backgroundColor = "#FFE8D6"
 
 # A lighter background color for the sidebar and other components
 secondaryBackgroundColor = "#ffffff"
