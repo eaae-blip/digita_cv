@@ -132,3 +132,16 @@ if page == "Home":
 - ► Handled food prep, customer service, and POS transactions in a fast-paced, high-volume environment.
 """
     )
+elif page == "Projects":
+    st.title("Projects")
+    st.write("---")
+    st.write("A selection of SEO and link-building projects. More coming soon.")
+
+    st.subheader("🔗 DACH Backlink Campaign")
+    st.write("Built high-authority backlinks across German, Austrian, and Swiss markets through competitor research and personalized outreach.")
+
+    st.subheader("📈 US Outreach Initiative")
+    st.write("Ran targeted link-building outreach for US-based clients, securing placements through guest posts and niche edits.")
+
+    st.subheader("🛠️ Technical SEO Audit")
+    st.write("Delivered on-page and technical optimizations that improved client site visibility and sales.")
