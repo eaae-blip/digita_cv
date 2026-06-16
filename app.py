@@ -49,11 +49,6 @@ if page == "Home":
     # --- EXPERIENCE & QUALIFICATIONS ---
     st.write("\n")
     st.subheader("Experience & Qualifications")
-    
-
-    # --- SKILLS ---
-    st.write("\n")
-    st.subheader("Hard Skills")
    
 
     # --- WORK HISTORY ---
